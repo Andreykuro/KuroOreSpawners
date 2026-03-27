@@ -1,0 +1,17 @@
+---
+name: KuroOreSpawner
+version: 0.0.1
+main: Andreykuro\KuroOreSpawner\Main
+api: 5.42.0
+depend:
+  - SimpleEconomy
+commands:
+  kuroos:
+    description: "Give a generator to a player"
+    usage: "/kuroos give <player> <ore> <amount> <level>"
+    permission: kuroos.give
+permissions:
+  kuroos.give:
+    description: "Allows giving generators"
+    default: op
+...
